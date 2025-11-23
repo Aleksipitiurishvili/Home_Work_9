@@ -200,3 +200,9 @@ img {
   height: 5px;
   background-color: #fcae4a;
 }
+.miniBoxP {
+  color: #4d4f62;
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.5;
+}
