@@ -70,7 +70,7 @@ img {
   padding: 32px;
   width: 350px;
   height: 250px;
-  border-radius: 0 0 16px 16px;
+  border-radius: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .supervisor {
@@ -84,6 +84,8 @@ img {
   left: 0;
   width: 350px;
   height: 5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
   background-color: #44d3d2;
 }
 .boxHeading {
@@ -113,7 +115,9 @@ img {
   height: 250px;
   background-color: #ffffff;
   position: relative;
-  border-radius: 0 0 16px 16px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-radius: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -124,6 +128,8 @@ img {
   left: 0;
   width: 100%;
   height: 5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
   background-color: #ea5454;
 }
 .icon {
@@ -152,7 +158,8 @@ img {
   height: 250px;
   background-color: #ffffff;
   position: relative;
-  border-radius: 0 0 16px 16px;
+
+  border-radius: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .miniBoxHeading3 {
@@ -168,6 +175,8 @@ img {
   left: 0;
   width: 100%;
   height: 5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
   background-color: #549ef2;
 }
 
@@ -177,12 +186,11 @@ img {
   align-self: flex-end;
   width: 350px;
   height: 250px;
-  margin-top: 30px;
   gap: 6px;
   padding: 32px;
   background-color: #ffffff;
   position: relative;
-  border-radius: 0 0 16px 16px;
+  border-radius: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .miniBoxHeading4 {
@@ -198,6 +206,8 @@ img {
   left: 0;
   width: 100%;
   height: 5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
   background-color: #fcae4a;
 }
 .miniBoxP {
@@ -205,4 +215,9 @@ img {
   font-weight: 400;
   font-size: 13px;
   opacity: 0.5;
+}
+.middleDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
